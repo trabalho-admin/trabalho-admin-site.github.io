@@ -1,0 +1,3 @@
+html,body{/*codigo para reset das configuraçoes padrao do site*/
+    all: unset;
+}
