@@ -1,3 +1,39 @@
-html,body{/*codigo para reset das configuraçoes padrao do site*/
-    all: unset;
+body{
+    margin: 0;   
+    padding: 0;
+    font-family: Arial, sans-serif;
+    zoom: 80%;
+}
+header{
+    display: flex;
+    height: 200px;
+    width: 100%;
+
+}
+main{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+footer{
+    display: flex;
+    height: 200px;
+    width: 100%;
+
+}
+.item{
+    
+}
+.content{
+    display: none;
+    background-color: aqua;
+    top: 0;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 600px;
+}
+#content1{
+    display: none;
+    
 }
